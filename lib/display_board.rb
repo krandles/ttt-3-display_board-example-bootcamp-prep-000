@@ -3,10 +3,6 @@ def display_board
   cell = "   "
   row = `#{cell}|#{cell}|#{cell}\n`
   divider = "-----------\n"
-  puts row
-  puts divider
-  puts row
-  puts divider
-  puts row
+  output = row + divider + row + divider + row
 end
 display_board
